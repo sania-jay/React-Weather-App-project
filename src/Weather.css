@@ -2,7 +2,6 @@
     border: 1px solid #dadde1;
     padding: 20px 20px;
     color: #89aeb2;
-    margin: 20px auto;
 }
 .Weather h1 {
     font-size: 24px;
@@ -25,7 +24,22 @@
 
 .Weather img {
     display: inline-block;
-    height: 60px;
+    height: 64px;
+    float: left;
+    margin-right: 10px;
+}
+.Weather .temperature {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+}
+.Weather .unit {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+
 }
 .Weather .third-row li{
     display: inline-block;
