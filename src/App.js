@@ -1,13 +1,16 @@
 
 import './App.css';
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-     <h1>Weather App</h1> 
+    
+    <Weather />
      
-
-<p>built by Sania Javed and <a href="https://github.com/sania-jay/React-Weather-App-project" target="_blank">open-sourced on Github</a>  </p>
+<footer>
+  Coded by Sania Javed and <a href="https://github.com/sania-jay/React-Weather-App-project" target="_blank">open-sourced on Github </a>
+  </footer>  
     </div>
   );
 }
