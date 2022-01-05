@@ -25,12 +25,12 @@
 .Weather canvas {
     display: inline-block;
     float: left;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-top: 5px;
 }
 .Weather .temperature {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 44px;
     line-height: 60px;
 
 }
@@ -50,4 +50,8 @@
 }
 .Weather .third-row li:hover {
     border-bottom: 3px solid #89aeb2;
+}
+a {
+    text-decoration: none;
+    color: #0B5ED7;
 }
