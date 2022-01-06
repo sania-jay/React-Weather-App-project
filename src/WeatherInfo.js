@@ -8,8 +8,7 @@ return (
   <div className="weatherInfo">
     <div className="row mt-3">
       <div className="col-4">
-        
-            <WeatherIcon code={props.data.icon} />
+          <WeatherIcon code={props.data.icon} /> 
        
         <WeatherTemperature celsius={props.data.temperature} />
        

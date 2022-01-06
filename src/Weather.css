@@ -22,7 +22,7 @@
     list-style-type: none;
 }
 
-.Weather canvas {
+.WeatherInfo canvas {
     display: inline-block;
     float: left;
     margin-right: 5px;
