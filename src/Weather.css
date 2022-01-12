@@ -1,10 +1,11 @@
 .Weather {
     border: 1px solid #dadde1;
     padding: 20px 20px;
-    color: #89aeb2;
+    background-color: #89aeb2;
+    color: white;
 }
 .Weather h1 {
-    font-size: 24px;
+    font-size: 26px;
     margin: 5px 0 0 0;
   
 }
@@ -49,7 +50,12 @@
 .Weather .third-row li:hover {
     border-bottom: 3px solid #89aeb2;
 }
-a {
-    text-decoration: none;
-    color: #0B5ED7;
+
+.btn {
+    color: #89aeb2;
+    background-color: white;
+}
+footer { 
+  text-align: left;
+  margin-left: 5px;
 }

@@ -48,7 +48,7 @@ return (
           <input
             type="search"
             placeholder="Enter a city"
-            className="form-control"
+            className="form-control text"
             autoFocus="on"
             onChange={updateSearchInput}
           />
@@ -57,7 +57,7 @@ return (
           <input
             type="submit"
             value="Search"
-            className="btn btn-primary w-100"
+            className="btn w-100"
           />
         </div>
       </div>
